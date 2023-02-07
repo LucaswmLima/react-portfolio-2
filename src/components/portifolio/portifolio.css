@@ -40,7 +40,7 @@
 .portifolio__item-cta{
     display: flex;
     gap: 1rem;
-    margin-bottom: 0.5rem;
+    margin: 2rem 2rem;
     justify-content: center;
 
 }
