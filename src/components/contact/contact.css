@@ -12,6 +12,10 @@
     gap: 1.2rem;
 }
 
+.contact__option h4,.contact__option h5,.contact__option svg{
+    color: var(--color-lightest);
+}
+
 .contact__option{
     background: var(--color-bg-variant);
     padding: 1.2rem;

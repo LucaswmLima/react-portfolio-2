@@ -155,6 +155,7 @@ const NextPage = () => {
       <h2>Portifólio</h2>
       <div className="portifolio__item-cta">
                     <div onClick={PreviousPage} className='btn' target={'_blank'} rel="noreferrer">Página Anterior</div>
+                    <div onClick={PreviousPage} className='page-number' target={'_blank'} rel="noreferrer">{index+1}</div>
                     <div onClick={NextPage} className='btn btn-primary' target={'_blank'} rel="noreferrer">Próxima Página</div>
                   </div>
       <div className="container portifolio__container">
@@ -193,6 +194,7 @@ const NextPage = () => {
       </div>
       <div className="portifolio__item-cta">
                     <div onClick={PreviousPage} className='btn' target={'_blank'} rel="noreferrer">Página Anterior</div>
+                    <div onClick={PreviousPage} className='page-number' target={'_blank'} rel="noreferrer">{index+1}</div>
                     <div onClick={NextPage} className='btn btn-primary' target={'_blank'} rel="noreferrer">Próxima Página</div>
                   </div>
     </section>

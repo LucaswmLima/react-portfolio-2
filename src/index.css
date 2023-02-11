@@ -11,6 +11,22 @@
 }
 
 :root{
+    --color-bg: #0A192F;
+    --color-bg-variant: #040d1a;
+    --color-primary: #39dfdc;
+    --color-primary-variant:#294367;
+    --color-white: #fff;
+    --color-light: #8892b0;
+    --color-lightest: #ccd6f6;
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+/* :root{
     --color-bg: rgb(36, 36, 36);
     --color-bg-variant: #4e4e4e;
     --color-primary: #39dfdc;
@@ -23,8 +39,7 @@
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
-}
-
+} */
 
 /* ========== OTHER COLOR PALLETE ==========/
 /* :root{
@@ -79,7 +94,7 @@ h1,h2,h3,h4,h5{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 section{

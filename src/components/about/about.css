@@ -44,7 +44,7 @@
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-bg-variant);
+    border-color: var(--color-primary-variant);
     cursor: default
 }
 
@@ -52,10 +52,12 @@
     color: var(--color-bg-primary);
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: var(--color-lightest);
 }
 
 .about__card h5 {
     font-size: 1.2rem;
+    color: var(--color-lightest);
 }
 
 .about__card small {

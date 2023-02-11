@@ -1,24 +1,23 @@
 import React from 'react'
 import CTA from './CTA'
 import './header.css'
-import ME from '../../assets/me.png'
-import HeaderSocials from './HeaderSocials'
+
 
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Olá! Sou o</h5>
+        <div className="container ">
+        <h4>Olá! Meu nome é</h4>
         <h1>Lucas William</h1>
-        <h5 className="text-light">
-          Desenvolvedor
-        </h5>
-        <CTA/>
-        <HeaderSocials/>
-        <div className="me">
-          <img id="my-img" src={ME} alt="" />
+        <h3 className="text-light">        
+        Desenvolvedor formado em engenharia da computação e apaixonado por tudo relacionado a tecnologia. Atualmente estou a procura de uma oportunidade na area.
+        </h3>
+        <h4>
+        Conheça abaixo mais sobre mim e meus trabalhos!
+        </h4>
         </div>
-        <a href="#footer" className='scroll__down'>Rolar Para Baixo</a>
+        <CTA/>
       </div>
     </header>
   )

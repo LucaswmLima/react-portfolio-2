@@ -6,12 +6,14 @@ import Experience from './components/experience/Experience'
 import Portifolio from './components/portifolio/Portifolio'
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer'
+import Socials from './components/socials/Socials'
 
 const App = () => {
 
   
   return (
     <>
+      <Socials/>
       <Header/>
       <Nav/>
       <About/>
