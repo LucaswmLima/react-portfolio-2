@@ -1,0 +1,42 @@
+.socials{
+        padding-top: 7rem;
+        /* overflow: hidden; */
+
+}
+
+.scroll__down {
+    position: fixed;
+    right: 0rem;
+    bottom: 5.5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 1.2rem;
+    zoom: 1.005;
+}
+
+.header__socials {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    position: fixed;
+    left: 3rem;
+    bottom: 0rem;
+    align-items: center;
+    
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 6rem;
+    background: var(--color-primary);
+}
+
+
+.header__scroll_down::after {
+    content: '';
+    width: 1px;
+    height: 6rem;
+    background: var(--color-primary);
+}
