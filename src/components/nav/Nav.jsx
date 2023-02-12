@@ -25,7 +25,7 @@ const Nav = () => {
       <p>Experiência</p>
       </div>
       <div className='nav__item'>
-      <a href="#portifolio" onClick={() => setActiveNav('#portifolio')} className={activeNav === '#portifolio' ? 'active' : ''}><AiOutlineAppstore /></a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><AiOutlineAppstore /></a>
       <p>Portifólio</p>
       </div>
       <div className='nav__item'>
