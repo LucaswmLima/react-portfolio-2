@@ -26,7 +26,7 @@ const Nav = () => {
       </div>
       <div className='nav__item'>
       <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><AiOutlineAppstore /></a>
-      <p>Portifólio</p>
+      <p>Portfólio</p>
       </div>
       <div className='nav__item'>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>

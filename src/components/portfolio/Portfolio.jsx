@@ -111,7 +111,7 @@ const NextPage = () => {
   return (
     <section id='portfolio'>
       <h5>Meus trabalhos recentes</h5>
-      <h2>Portifólio</h2>
+      <h2>Portfólio</h2>
       <div className="portfolio__item-cta">
                     <div onClick={PreviousPage} className='btn' target={'_blank'} rel="noreferrer">Página Anterior</div>
                     <div onClick={PreviousPage} className='page-number' target={'_blank'} rel="noreferrer">{index+1}</div>
