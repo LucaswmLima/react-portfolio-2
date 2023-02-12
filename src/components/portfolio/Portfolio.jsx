@@ -81,7 +81,7 @@ const data = [[{
 {
   id: 6,
   image: require('../../assets/portfolio.jpg'),
-  title: 'Portifólio desenvolvido em ReactJS',
+  title: 'Portfólio desenvolvido em ReactJS',
   github: 'https://github.com/LucaswmLima/react-portfolio',
   demo: ''
 }]
