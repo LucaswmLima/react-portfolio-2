@@ -17,24 +17,24 @@ const data = [[{
 ,
 {
   id: 3,
+  image: require('../../assets/todo-list-1.jpg'),
+  title: 'List de tarefas desenvolvida em React com Typescript',
+  github: 'https://github.com/LucaswmLima/React-todo-list-1',
+  demo: 'https://todo-list-01.vercel.app/'
+}, {
+  id: 4,
   image: require('../../assets/tic-tac-toe-img.jpg'),
   title: 'Jogo da velha desenvolvido em Javascript',
   github: 'https://github.com/LucaswmLima/Javascript-Tic-Tac-Toe',
   demo: 'https://lucaswmlima.github.io/Javascript-Tic-Tac-Toe/'
-}, {
-  id: 4,
-  image: require('../../assets/calculator-img.jpg'),
-  title: 'Calculadora em Javascript com validações de entrada',
-  github: 'https://github.com/LucaswmLima/javascript-calculator',
-  demo: 'https://lucaswmlima.github.io/javascript-calculator/'
 }
 ,
 {
   id: 5,
-  image: require('../../assets/IMC.jpg'),
-  title: 'Calculatora de IMC desenvolvida em Flutter',
+  image: require('../../assets/calculator-img.jpg'),
+  title: 'Calculadora em Javascript com validações de entrada',
   github: 'https://github.com/LucaswmLima/javascript-calculator',
-  demo: ''
+  demo: 'https://lucaswmlima.github.io/javascript-calculator/'
 },
 {
   id: 6,
@@ -51,9 +51,9 @@ const data = [[{
   demo: 'https://site-01-lucas-william.netlify.app'
 }, {
   id: 2,
-  image: require('../../assets/clock-unlocker.jpg'),
-  title: 'Desbloqueador de relógios de ponto em Python',
-  github: 'https://github.com/LucaswmLima/python-clock-unlocker',
+  image: require('../../assets/IMC.jpg'),
+  title: 'Calculatora de IMC desenvolvida em Flutter',
+  github: 'https://github.com/LucaswmLima/javascript-calculator',
   demo: ''
 }
 ,
@@ -65,27 +65,36 @@ const data = [[{
   demo: ''
 }, {
   id: 4,
-  image: require('../../assets/grade-calculator.jpg'),
-  title: 'Calculadora de notas desenvolvida em Java',
-  github: 'https://github.com/LucaswmLima/java-grade-calculator',
+  image: require('../../assets/clock-unlocker.jpg'),
+  title: 'Desbloqueador de relógios de ponto em Python',
+  github: 'https://github.com/LucaswmLima/python-clock-unlocker',
   demo: ''
 }
 ,
 {
   id: 5,
-  image: require('../../assets/fuel-calculator.jpg'),
-  title: 'Calculatora de custo de combustível em Java',
-  github: 'https://github.com/LucaswmLima/java-fuel-calculator',
+  image: require('../../assets/grade-calculator.jpg'),
+  title: 'Calculadora de notas desenvolvida em Java',
+  github: 'https://github.com/LucaswmLima/java-grade-calculator',
   demo: ''
 },
 {
   id: 6,
+  image: require('../../assets/fuel-calculator.jpg'),
+  title: 'Calculatora de custo de combustível em Java',
+  github: 'https://github.com/LucaswmLima/java-fuel-calculator',
+  demo: ''
+}],
+[{
+  id: 1,
   image: require('../../assets/portfolio.jpg'),
   title: 'Portfólio desenvolvido em ReactJS',
   github: 'https://github.com/LucaswmLima/react-portfolio',
   demo: ''
 }]
 ]
+
+
 
 
 
