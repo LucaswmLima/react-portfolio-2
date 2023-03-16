@@ -38,10 +38,10 @@ const data = [[{
 },
 {
   id: 6,
-  image: require('../../assets/lucy.jpg'),
-  title: 'Assistente virtual para controle de estoque em Python',
-  github: 'https://github.com/LucaswmLima/python-lucy-assistant',
-  demo: ''
+  image: require('../../assets/financial-system.jpg'),
+  title: 'Sistema financeiro desenvolvido em React',
+  github: 'https://github.com/LucaswmLima/react-financial-system',
+  demo: 'https://sistema-financeiro-lw.vercel.app'
 }],
 [{
   id: 1,
@@ -73,23 +73,31 @@ const data = [[{
 ,
 {
   id: 5,
+  image: require('../../assets/lucy.jpg'),
+  title: 'Assistente virtual para controle de estoque em Python',
+  github: 'https://github.com/LucaswmLima/python-lucy-assistant',
+  demo: ''
+},
+{
+  id: 6,
   image: require('../../assets/grade-calculator.jpg'),
   title: 'Calculadora de notas desenvolvida em Java',
   github: 'https://github.com/LucaswmLima/java-grade-calculator',
   demo: ''
 },
-{
-  id: 6,
-  image: require('../../assets/fuel-calculator.jpg'),
-  title: 'Calculatora de custo de combustível em Java',
-  github: 'https://github.com/LucaswmLima/java-fuel-calculator',
-  demo: ''
-}],
+],
 [{
   id: 1,
   image: require('../../assets/portfolio.jpg'),
   title: 'Portfólio desenvolvido em ReactJS',
   github: 'https://github.com/LucaswmLima/react-portfolio',
+  demo: ''
+},
+{
+  id: 2,
+  image: require('../../assets/fuel-calculator.jpg'),
+  title: 'Calculatora de custo de combustível em Java',
+  github: 'https://github.com/LucaswmLima/java-fuel-calculator',
   demo: ''
 }]
 ]
