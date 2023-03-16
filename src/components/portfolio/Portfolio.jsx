@@ -20,7 +20,7 @@ const data = [
     {
       id: 3,
       image: require("../../assets/financial-system.jpg"),
-      title: "Sistema financeiro desenvolvido em React",
+      title: "Sistema financeiro desenvolvido em React com Typescript",
       github: "https://github.com/LucaswmLima/react-financial-system",
       demo: "https://sistema-financeiro-lw.vercel.app",
     },
